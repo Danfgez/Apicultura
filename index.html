@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Moda Retro</title>
+    <title>Apicultura</title>
 </head>
 <body>
     <div id="container">
@@ -41,6 +41,15 @@
 
             <div id="Contacto">
 
+              <label for="nombreId" > Tu nombre</label><br>
+              <input type="text" name="nombretxt" id="nombreId"> <br>
+              <label for="CorreoId" > Tu Correo</label><br>
+              <input type="text" name="Correotxt" id="CorreoId"><br>
+              <label for="mensajeId">Tu Pregunta</label> <br>
+              <textarea name="mensajetxt" id="mensajeId" cols="30" rows="10"></textarea><br><br>
+              <input type="submit" value="Enviar" onclick="enviar()"> <br>
+              <label  id="respId"></label>
+              
             </div>
 
         </div>
@@ -64,5 +73,7 @@
                   </svg>
         </div>
     </div>
+
+    <script src="assets/js/contactos.js"></script>
 </body>
 </html>

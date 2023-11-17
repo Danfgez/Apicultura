@@ -14,7 +14,7 @@ html{
 }
 
 #nav{
-    background-color: rgba(238, 150, 209, 0.979); 
+    background-color: rgba(0, 0, 0, 0.979); 
     display: table;
     width: 100%;
 }
@@ -30,17 +30,11 @@ html{
     text-decoration: none;
     padding: 15px 25px 15px 25px;
     display: table;
-    border-right: 2px solid rgb(196, 81, 225);
-    color: rgb(111, 17, 123);
-    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 
-    0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+    border-right: solid 2px yellow;
+    color: rgb(227, 181, 64);
 }
 
-#nav ol li a:hover{
-    text-shadow: 0 0 10px rgba(255,255,255,1) ,
-    0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) ,
-    0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
-}
+
 
 #Header{
     display: table;
@@ -56,8 +50,8 @@ html{
     display: table;
     width: 100%;
     height: 15px;
-    color: black;
-    background-color: rgba(223, 250, 135, 0.897);
+    color: rgb(227, 181, 64);
+    background-color: rgb(0, 0, 0);
     text-align: center;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
@@ -80,14 +74,7 @@ html{
     margin-right: 10px;
 }
 
-#Inicios{
-    display: table;
-    width: 100%;
-    height: 100px;
-    background-color:rgba(199, 231, 229, 0.838);
-    color: rgb(0, 0, 0);
 
-}
 
 
 h3{
@@ -95,7 +82,7 @@ h3{
     margin-top: 2%;
     margin-bottom: 1%;
     font-weight: bold;
-    color: darkblue;
+    color: rgb(227, 181, 64);
     font-family: cursive;
 }
 
@@ -118,27 +105,63 @@ p{
     font-size: 16px;
     font-style: italic;
     font-family: cursive;
-    color: rgb(65, 163, 248);
 }
 
-#Mediados{
+#Quees{
+    display: table;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(243, 221, 109);
+    color : rgb(0, 0, 0);
+
+}
+
+#Cuidados{
+    display: table;
+    width: 100%;
+    height: 100px;
+    background-color:rgba(0, 0, 0, 0.838);
+    color: rgb(227, 181, 64);
+
+}
+
+
+
+#Equipos{
+    display: table;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(243, 221, 109);
+    color: black;
+    border-bottom: 15px solid black;
+}
+
+#Productos{
     display: table;
     width: 100%;
     height: 100px;
     background-color:rgba(199, 231, 229, 0.838);
-    color: black;
-
+    color: rgb(227, 181, 64);
 }
 
-
-
-#Finales{
+#Contacto{
     display: table;
     width: 100%;
     height: 100px;
-    background-color:rgba(199, 231, 229, 0.838);
+    background-color: rgb(243, 221, 109);
     color: black;
+    text-align: center;
+    
+    
 }
+
+#Contacto input{
+
+    width: 250px;
+    padding: 2px 2px 2px 2px;
+    margin-bottom: 0.5%;
+}
+
 
 
 .imageR{
