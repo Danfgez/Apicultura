@@ -40,10 +40,8 @@ html{
     display: table;
     width: 100%;
     height:550px;
-    background-image:url();
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(243, 221, 109);
+    color: black;
 }
 
 #pie{
@@ -211,3 +209,65 @@ p{
     margin-right: 35px;
     margin-bottom: 20px;
 }
+
+.eye {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border-radius: 50%;
+    top: 30%;
+}
+
+.eye.left {
+    left: 20%;
+}
+
+.eye.right {
+    right: 20%; 
+}
+
+
+.eye:before {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.antenna {
+    position: absolute;
+    width: 4px;
+    height: 50px;
+    background-color: black;
+    top: 10%;
+}
+
+.antenna.left {
+    left: 30%; 
+    transform: rotate(-25deg);
+}
+
+.antenna.right {
+    right: 30%; 
+    transform: rotate(25deg); 
+}
+
+.smile {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    border: 4px solid black;
+    border-radius: 75%;
+    border-top: none;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
